@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral', serif;
+    background-image: url("station.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.Greetings {
+    color: blueviolet;
+    text-shadow: 0 1px 1px black;
+}
+
+.Count {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2 {
+    color: blueviolet;
+    text-shadow: 0 1px 1px black;
+
+}
+
+h1:hover {
+    color: rgb(138, 9, 9);
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 5px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+button:active {
+    box-shadow: 0 5px rgb(17, 16, 16);
+    transform: translateY(4px);
+}
+
+#increment-btn {
+    background-color: rgb(110, 11, 11);
+
+}
+
+#save-btn {
+    background-color: blue;
+}
+
+
+#save-el {
+    color: white;
+    font-weight: 800;
+    text-shadow: 0 0 1px black;
+    margin-top: 50px;
+    padding: 10px;
+}
